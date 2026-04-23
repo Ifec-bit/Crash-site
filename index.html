@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Desert Oasis – Crash Site</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div id="ui">WASD – move | mouse – look | click to lock</div>
+  <div id="status"></div>
+  <div id="crosshair">+</div>
+  <div id="btn-panel">
+    <button onclick="toggleTime()">Day / Night [T]</button>
+    <button onclick="handleRainKey()">Rain [R]</button>
+  </div>
+
+  <!-- Three.js from CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <!-- Scene logic -->
+  <script src="main.js"></script>
+</body>
+</html>
